@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   background: rgb(2, 0, 36);
@@ -23,7 +26,7 @@ body {
 }
 .progress-done {
   height: 100%;
-  width: 0;
+  width: 1%;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -37,5 +40,31 @@ body {
   justify-content: center;
   color: #fff;
   opacity: 0;
-  transition: all 1s linear;
+  /* transition: all 0.3s linear; */
+}
+
+.btn {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(56, 56, 129, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.7);
+}
+.btn:focus-visible {
+  outline: none;
 }
