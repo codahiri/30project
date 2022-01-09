@@ -2,10 +2,16 @@
 <html lang="en">
 
 <head>
+  <title>30 Project</title>
+  <link rel="shortcut icon" href="./favicon.ico" sizes="16x16" type="image/png">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>30 Project</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://30project.vercel.app/" />
+  <meta property="og:site_name" content="30 Project" />
+  <meta property="og:image" itemprop="image primaryImageOfPage"
+    content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" />
   <style>
     * {
       box-sizing: border-box;
@@ -22,19 +28,6 @@
       justify-content: center;
     }
 
-    .container {
-      max-width: 100%;
-      width: 800px;
-      background-color: #fff;
-      padding: 50px 80px;
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-
     header {
       padding: 15px;
       font-size: 24px;
@@ -46,20 +39,35 @@
       margin-bottom: 10px;
     }
   </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <div class="container">
+  <div class="bg-white rounded px-72 py-6 text-center shadow-md">
     <header>
       <h3>30 Project</h3>
     </header>
     <nav>
       <ol>
-        <li><a target="_blank" href="./01-progress-bar/progress.html">01 Progress Bar</a></li>
-        <li><a target="_blank" href="./02-joke/joke.html">Dad Jokes Generator</a></li>
-        <li><a target="_blank" href="./03-img-effect/img-effect.html">Image Password Strength Effect</a></li>
+        <li
+          class="p-2 bg-violet-500 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300">
+          <a target="_blank" href="./01-progress-bar/progress.html">Progress Bar</a>
+        </li>
+        <li
+          class="p-2 bg-violet-500 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300">
+          <a target="_blank" href="./02-joke/joke.html">Dad Jokes Generator</a>
+        </li>
+        <li
+          class="p-2 bg-violet-500 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300">
+          <a target="_blank" href="./03-img-effect/img-effect.html">Image Password Strength Effect</a>
+        </li>
       </ol>
     </nav>
+
+    <section>
+      <span>Powered by</span>
+      <a target="_blank" class="text-blue-600 visited:text-purple-600" href="https://ilosrim.vercel.app">ilosrim</a>
+    </section>
   </div>
 </body>
 
