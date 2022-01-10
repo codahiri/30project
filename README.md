@@ -2,10 +2,10 @@
 
 ## Menu
 
-- [Progress Bar](./01-progress-bar)
-- [Dad Jokes Generator](./02-joke)
-- [Image Password Strength Effect](./03-img-effect)
-- [Line Through Effect](./04-line-though)
+- [Progress Bar](./public/01-progress-bar)
+- [Dad Jokes Generator](./public/02-joke)
+- [Image Password Strength Effect](./public/03-img-effect)
+- [Line Through Effect](./public/04-line-though)
 
 ---
 
