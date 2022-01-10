@@ -1,0 +1,12 @@
+{
+  "name": "30-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/input.css -o dist/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.12"
+  }
+}
