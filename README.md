@@ -7,6 +7,7 @@
 - [Image Password Strength Effect](./public/03-img-effect)
 - [Line Through Effect](./public/04-line-though)
 - [Timeline Component in React](./public/05-timeline-component)
+- [JavaScript Visual Counter](./public/06-js-visual-counter)
 
 ---
 

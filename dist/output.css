@@ -510,8 +510,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .border-b {
   border-bottom-width: 1px;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .p-4 {
