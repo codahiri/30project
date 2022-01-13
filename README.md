@@ -9,6 +9,7 @@
 - [Timeline Component in React](./public/05-timeline-component)
 - [JavaScript Visual Counter](./public/06-js-visual-counter)
 - [CSS Custom Checkbox](./public/07-checkbox)
+- [Traffic Lights Simulator with CSS and JavaScript](./public/08-traffic-lights)
 
 ---
 
