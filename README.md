@@ -8,6 +8,7 @@
 - [Line Through Effect](./public/04-line-through)
 - [Timeline Component in React](./public/05-timeline-component)
 - [JavaScript Visual Counter](./public/06-js-visual-counter)
+- [CSS Custom Checkbox](./public/07-checkbox)
 
 ---
 
