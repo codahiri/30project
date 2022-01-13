@@ -5,7 +5,7 @@
 - [Progress Bar](./public/01-progress-bar)
 - [Dad Jokes Generator](./public/02-joke)
 - [Image Password Strength Effect](./public/03-img-effect)
-- [Line Through Effect](./public/04-line-though)
+- [Line Through Effect](./public/04-line-through)
 - [Timeline Component in React](./public/05-timeline-component)
 - [JavaScript Visual Counter](./public/06-js-visual-counter)
 
