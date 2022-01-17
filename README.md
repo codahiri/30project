@@ -12,6 +12,7 @@
 - [Traffic Lights Simulator with CSS and JavaScript](./public/08-traffic-lights)
 - [Image Reflection - CSS effect](./public/09-image-reflection)
 - [Hover Board](./public/10-hover-board)
+- [Mix Blend Loader](./public/11-mix-blend)
 
 ---
 
