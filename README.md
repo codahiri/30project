@@ -15,6 +15,7 @@
 - [Mix Blend Loader](./public/11-mix-blend)
 - [Auto Text Effect](./public/12-auto-text)
 - [CSS Smooth Scroll](./public/13-smooth-scroll)
+- [React Progress Bar](./public/14-react-progress-bar)
 
 ---
 
