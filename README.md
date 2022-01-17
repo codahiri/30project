@@ -11,6 +11,7 @@
 - [CSS Custom Checkbox](./public/07-checkbox)
 - [Traffic Lights Simulator with CSS and JavaScript](./public/08-traffic-lights)
 - [Image Reflection - CSS effect](./public/09-image-reflection)
+- [Hover Board](./public/10-hover-board)
 
 ---
 
