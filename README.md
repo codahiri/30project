@@ -13,6 +13,7 @@
 - [Image Reflection - CSS effect](./public/09-image-reflection)
 - [Hover Board](./public/10-hover-board)
 - [Mix Blend Loader](./public/11-mix-blend)
+- [Auto Text Effect](./public/12-auto-text)
 
 ---
 
