@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Meal Generator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-md bg-violet-200">
+
+  <div class="container my-0 pb-3 mx-auto">
+    <div class="row text-center my-9">
+      <h3 class="text-3xl font-bold">Feeling Hungry?</h3>
+      <h5 class="text-2xl text-gray-400 my-3">Get a random clicking below</h5>
+      <button id="get_meal" class="bg-blue-700 shadow text-white hover:bg-blue-500 text-bold rounded px-4 py-2">Get
+        meal</button>
+    </div>
+
+    <div class="row flex justify-around" id="meal">
+
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
