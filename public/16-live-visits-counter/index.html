@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Visits Counter</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      background-color: aqua;
+      overflow: hidden;
+    }
+
+    span {
+      font-size: 32px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Live Visits Counter</h1>
+  <span id="visits"></span>
+
+  <script>
+    function cb(response) {
+      document.getElementById('visits').innerText = response.value;
+    }
+  </script>
+  <script async src="https://api.countapi.xyz/hit/mysite.com/visits?callback=cb"></script>
+
+</body>
+
+</html>
