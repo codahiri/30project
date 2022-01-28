@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #526295;
+  color: #fff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 450px;
+}
+.circle {
+  width: 14px;
+  height: 14px;
+  margin: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.circle.grow {
+  transform: scale(2);
+}

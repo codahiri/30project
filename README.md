@@ -18,6 +18,8 @@
 - [React Progress Bar](./public/14-react-progress-bar)
 - [Random Meal Generator](./public/15-random-meal-generator)
 - [Live Visits Counter](./public/16-live-visits-counter)
+- [Waves Animation with JavaScript](./public/17-waves-animation)
+- [JavaScript Hacking Effect](./public/18-hacking-effect)
 
 ---
 
